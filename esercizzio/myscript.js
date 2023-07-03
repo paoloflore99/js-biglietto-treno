@@ -19,5 +19,16 @@ va applicato uno sconto del 40% per gli over 65.*/
 //prezzoFinale
 //prova della formula da fare 
 //console.log((50 * 20) / 100 ) //32.2 e lo sconto applicato
-console.log(chilometri * 0.21) 
+console.log(chilometri * 0.21) //.toFixed(2);
 console.log
+
+//qui fai il if per mettere lo sconto in base alleta 
+if (eta < 18) {
+    console.log()//sconto del 20%
+} else if (eta > 18 && eta < 65) {
+    //sconto del 40%
+} else {
+//qui va il non sconto
+}
+
+
