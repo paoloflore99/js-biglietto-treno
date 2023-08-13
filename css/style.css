@@ -1,0 +1,26 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none; 
+}
+
+.dati {
+    margin-top: -160px;
+}
+
+.misuraprezzoo {
+    width: 300px;
+    display: inline;
+}
+
+
+.modifica {
+    max-width: 500px;
+}
+
+#prova {
+    display: inline;
+}
+
